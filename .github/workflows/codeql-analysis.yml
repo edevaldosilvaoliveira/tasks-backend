@@ -17,8 +17,8 @@ jobs:
       security-events: write
       
       #only required for workflow in private repositories
-      action: read
-      content: read
+      actions: read
+      contents: read
     
     strategy:
       fail-fast: true
