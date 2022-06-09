@@ -34,8 +34,8 @@ jobs:
         uses: github/codeql-action/init@v2
         
         with:
-          languages: ${{ matrix.language}}
-          queries: secutiry-and-quality
+          languages: ${{ matrix.language }}
+          queries: security-and-quality
           
       #Autobuild attempts to build any compiled languages
       - name: Autobuild
